@@ -13,7 +13,7 @@ Arlo Skill 集中维护和分享面向实际项目的 Agent Skills：将工作�
 | 技能 | 解决什么问题 | 说明 |
 |---|---|---|
 | [geo-web-publishing](https://github.com/arlo-skill/geo-web-publishing) | 设计便于搜索引擎与联网 AI 发现的公开网站，并根据项目事实持续发布文章 | 落地页、HTML、分类标签、关联内链、robots.txt、Sitemap、内容核验与后台发布 |
-| [ai-crypto-event-monitor](https://github.com/arlo-skill/ai-crypto-event-monitor) | 本地脚本持续监听虚拟币行情，仅在条件命中后触发 Codex 研究 | Go 监控模板、WebSocket / REST、可查询规则、持久化防重、市场/链上/资金流/新闻热度核验；默认 dry-run，无交易执行 |
+| [ai-crypto-event-monitor](https://github.com/arlo-skill/ai-crypto-event-monitor) | 本地脚本持续监听虚拟币行情，仅在条件命中后触发 Codex 研究 | Go 监控模板、只读网页、多币行情与触发、对话维护持仓/挂单、持久化防重、市场/链上/资金流/新闻热度核验；部署后交付运行网址，默认 dry-run，无交易执行 |
 
 每个技能独立维护，具体能力、使用条件和安装方法以对应仓库的 README 与 `SKILL.md` 为准。
 
